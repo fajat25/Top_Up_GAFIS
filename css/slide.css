@@ -1,0 +1,43 @@
+
+.slider
+{
+    margin-top: 2%;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90%;
+}
+
+.slider h4
+{
+    margin-top: 2%;
+}
+
+.slides
+{
+    display: flex;
+    width: 40rem;
+    overflow: hidden;
+}
+
+.slides img 
+{
+    border-radius: 10px;
+}
+
+.slide
+{
+    width: 40rem;
+    transition: .5s;
+}
+
+.choose_1:checked ~ .slides > .s1
+{
+    margin-left: -0rem;
+    margin-right: 10rem;
+}
+
+.choose_2:checked ~ .slides > .s1
+{
+    margin-left: -40rem;
+}
